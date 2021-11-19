@@ -19,7 +19,7 @@
       :disabled="disabled"
       @click="$emit('send')"
     >
-      {{ start ? "Let's start" : "Send Message" }}
+      {{ start ? "Let's chat" : "Send Message" }}
     </button>
   </div>
 </template>
